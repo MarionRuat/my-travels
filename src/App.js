@@ -1,25 +1,21 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import Travel from './components/Travel';
 import './App.css';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+         <Travel destination="Ocean"
+country='the Philippines'
+photo="https://4.bp.blogspot.com/-tI91nFxjcRI/UKRGcsc1XBI/AAAAAAAADbs/dR7pZ_021T0/s1600/AA7.jpg"
+distance='11 373'/>
+         <Travel destination="Hiking"
+country='Mogonlia'
+photo="https://www.voyage-mongolie.com/wp-content/uploads/2018/08/voyage-mongolie.jpg"
+distance='7 473'/>
+
+
       </div>
     );
   }
