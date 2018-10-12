@@ -3,7 +3,8 @@ import Travel from './Travel';
 
 const travelsMap = [ 'Japon','Suède','Vietnam','USA','Coratie'];
 
-export default ()=>(<div><ul>
-    {travelsMap.map(travelMap=><Travel {...travelMap} />)}</ul>
-    
+const Travels = ()=>(<div>
+    {travelsMap.map(travelMap=> <Travel {...travelMap} />)}
     </div>)
+
+    export default Travels;

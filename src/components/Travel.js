@@ -1,7 +1,9 @@
 import React from 'react'
 
-export default ({travelMap})=>(
+const Travel = ({travelMap})=>(
     <div>
-    <h1>{travelMap}</h1>
+    <p>{travelMap}</p>
 </div>
 )
+
+export default Travel;
