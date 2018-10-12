@@ -6,9 +6,6 @@ import Quotes from './components/Quotes';
 
 import './App.css';
 
-const travelsMap = [ 'Japon','Suède','Vietnam','USA','Coratie'];
-
-
 class App extends Component {
   render() {
     return (
