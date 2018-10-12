@@ -1,8 +1,9 @@
 import React from 'react';
+import Travel from './Travel';
 
 const travelsMap = [ 'Japon','Suède','Vietnam','USA','Coratie'];
 
-export default ({travelsMap})=>(<div><ul>
-    {travelsMap.map(travelMap=><li>{travelMap}</li>)}</ul>
+export default ()=>(<div><ul>
+    {travelsMap.map(travelMap=><Travel {...travelMap} />)}</ul>
     
     </div>)
